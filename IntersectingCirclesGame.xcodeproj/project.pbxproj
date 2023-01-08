@@ -57,8 +57,8 @@
 				A9912011296AF49B00971D30 /* AppDelegate.swift */,
 				A9912015296AF49B00971D30 /* ViewController.swift */,
 				A9912017296AF49B00971D30 /* Main.storyboard */,
-				A991201A296AF49C00971D30 /* Assets.xcassets */,
 				A991201C296AF49C00971D30 /* LaunchScreen.storyboard */,
+				A991201A296AF49C00971D30 /* Assets.xcassets */,
 				A991201F296AF49C00971D30 /* Info.plist */,
 			);
 			path = IntersectingCirclesGame;
