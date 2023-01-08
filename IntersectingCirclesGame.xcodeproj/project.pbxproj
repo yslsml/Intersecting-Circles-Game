@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A9912012296AF49B00971D30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9912011296AF49B00971D30 /* AppDelegate.swift */; };
-		A9912014296AF49B00971D30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9912013296AF49B00971D30 /* SceneDelegate.swift */; };
 		A9912016296AF49B00971D30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9912015296AF49B00971D30 /* ViewController.swift */; };
 		A9912019296AF49B00971D30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9912017296AF49B00971D30 /* Main.storyboard */; };
 		A991201B296AF49C00971D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A991201A296AF49C00971D30 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		A991200E296AF49B00971D30 /* IntersectingCirclesGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntersectingCirclesGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9912011296AF49B00971D30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A9912013296AF49B00971D30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A9912015296AF49B00971D30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A9912018296AF49B00971D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A991201A296AF49C00971D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				A9912011296AF49B00971D30 /* AppDelegate.swift */,
-				A9912013296AF49B00971D30 /* SceneDelegate.swift */,
 				A9912015296AF49B00971D30 /* ViewController.swift */,
 				A9912017296AF49B00971D30 /* Main.storyboard */,
 				A991201A296AF49C00971D30 /* Assets.xcassets */,
@@ -140,7 +137,6 @@
 			files = (
 				A9912016296AF49B00971D30 /* ViewController.swift in Sources */,
 				A9912012296AF49B00971D30 /* AppDelegate.swift in Sources */,
-				A9912014296AF49B00971D30 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
