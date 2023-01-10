@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9497E4A296DFD2A00878734 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9497E49296DFD2A00878734 /* UIColor.swift */; };
 		A9912012296AF49B00971D30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9912011296AF49B00971D30 /* AppDelegate.swift */; };
-		A9912016296AF49B00971D30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9912015296AF49B00971D30 /* ViewController.swift */; };
+		A9912016296AF49B00971D30 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9912015296AF49B00971D30 /* StartViewController.swift */; };
 		A9912019296AF49B00971D30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9912017296AF49B00971D30 /* Main.storyboard */; };
 		A991201B296AF49C00971D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A991201A296AF49C00971D30 /* Assets.xcassets */; };
 		A991201E296AF49C00971D30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A991201C296AF49C00971D30 /* LaunchScreen.storyboard */; };
+		A9912026296AF62500971D30 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9912025296AF62500971D30 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A9497E49296DFD2A00878734 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		A991200E296AF49B00971D30 /* IntersectingCirclesGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntersectingCirclesGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9912011296AF49B00971D30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A9912015296AF49B00971D30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9912015296AF49B00971D30 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		A9912018296AF49B00971D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A991201A296AF49C00971D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A991201D296AF49C00971D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A991201F296AF49C00971D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9912025296AF62500971D30 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		A9912010296AF49B00971D30 /* IntersectingCirclesGame */ = {
 			isa = PBXGroup;
 			children = (
+				A9912027296AF62B00971D30 /* Controllers */,
 				A9912011296AF49B00971D30 /* AppDelegate.swift */,
-				A9912015296AF49B00971D30 /* ViewController.swift */,
 				A9912017296AF49B00971D30 /* Main.storyboard */,
 				A991201C296AF49C00971D30 /* LaunchScreen.storyboard */,
 				A991201A296AF49C00971D30 /* Assets.xcassets */,
 				A991201F296AF49C00971D30 /* Info.plist */,
+				A9497E49296DFD2A00878734 /* UIColor.swift */,
 			);
 			path = IntersectingCirclesGame;
+			sourceTree = "<group>";
+		};
+		A9912027296AF62B00971D30 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9912025296AF62500971D30 /* GameViewController.swift */,
+				A9912015296AF49B00971D30 /* StartViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9912016296AF49B00971D30 /* ViewController.swift in Sources */,
+				A9912016296AF49B00971D30 /* StartViewController.swift in Sources */,
+				A9497E4A296DFD2A00878734 /* UIColor.swift in Sources */,
+				A9912026296AF62500971D30 /* GameViewController.swift in Sources */,
 				A9912012296AF49B00971D30 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
